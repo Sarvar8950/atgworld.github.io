@@ -1,0 +1,846 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 72px;
+}
+.head{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.head .logo{
+    position: absolute;
+    left: 5%;
+    font-size: 22px;
+}
+.head input{
+    position: absolute;
+    width: 360px;
+    height: 42px;
+    left: 40%;
+    background: #F2F2F2;
+    border-radius: 21px;
+    outline: none;
+    border: none;
+    padding: 22px;
+}
+.head p{
+    position: absolute;
+    right: 7%;
+    top: 27px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #2E2E2E;
+}
+.head p a {
+    text-decoration: none;
+}
+.head2{
+    position: relative;
+    height: 440px;
+    background: url("img/Rectangle\ 2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    filter: grayscale(50%);
+}
+.head2 h1{
+    position: absolute;
+    top: 286px;
+    left: 200px;
+    color: #fff;
+}
+.head2 p{
+    position: absolute;
+    left: 200px;
+    top: 337px ;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    color: #fff;
+}
+.navbar{
+    position: relative;
+    height: 56px;
+    width: 80%;
+    margin: auto;
+    margin-top: 32px;
+    border-bottom: 1px solid#ADB5BD;
+    display: flex;
+    align-items: center;
+}
+.leftnav a{
+    text-decoration: none;
+    color: #868E96;
+    margin-right: 20px;
+}
+.leftnav .a{
+    display: none;
+}
+.leftnav a:nth-child(1){
+    border-bottom: 2px solid black;
+    padding-bottom: 16px;
+
+}
+.rightnav{
+    position: absolute;
+    right: 0px;
+}
+.rightnav button:nth-child(1){
+    border: none;
+    background: #EDEEF0;
+    padding: 8px 38px 8px 12px;
+    border-radius: 4px;
+    margin-right: 16px;
+}
+.rightnav button:nth-child(2){
+    border: none;
+    background: #2F6ce5;
+    padding: 8px 12px 8px 38px;
+    border-radius: 4px;
+    color: #fff;
+}
+.rightnav .filter{
+    display: none;
+}
+.left{
+    position: relative;
+    float: left;
+    margin-left: 10%;
+    margin-top: 28px;
+    margin-bottom: 98px;
+    width: 45%;
+}
+.box1, .box2, .box3, .box4{
+    position: relative;
+    height: 472px;
+    width: 100%;
+    border: 1px solid #c4c4c4;
+    margin-bottom: 16px;
+}
+.left .box1 .img1, .left .box2 .img2, .left .box3 .img3{
+    position: absolute;
+    background: #c4c4c4;
+    height: 220px;
+    width: 100%;
+}
+.box1 h4, .box2 h4, .box3 h4{
+    position: absolute;
+    top: 240px;
+    font-size: 18px;
+    margin-left: 20px;
+    font-weight: 500;
+    line-height: 23px;
+}
+.box1 .p1, .box2 .p3, .box3 .p5{
+    position: absolute;
+    top: 275px;
+    left: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 134.17%;
+}
+.box1 .p2, .box2 .p4{
+    position: absolute;
+    top: 347px;
+    left: 20px;
+    font-size: 19px;
+    line-height: 134.17%;
+    color: #5c5c5c;
+}
+.box1 .name img, .box2 .name img, .box3 .name img, .box4 .name img{
+    position: absolute;
+    height: 48px;
+width: 48px;
+left: 20px;
+top: 404px;
+border-radius: 24px;
+background: #5c5c5c;
+}
+.box1 .name .leftname p, .box2 .name .leftname p, .box3 .name .leftname p, .box4 .name .leftname p{
+    position: absolute;
+    height: 24px;
+width: 125px;
+left: 78px;
+top: 416px;
+font-size: 18px;
+font-weight: 600;
+line-height: 23px;
+}
+.box1 .name .rightname, .box2 .name .rightname, .box3 .name .rightname, .box4 .name .rightname{
+    position: absolute;
+    height: 18px;
+width: 69px;
+right: 102px;
+top: 419px;
+font-size: 14px;
+font-weight: 500;
+line-height: 18px;
+}
+.box3{
+    height: 490px;
+    position: relative;
+}
+.box3 .details .leftdetails{
+    position: absolute;
+    left: 44px;
+    top: 316px;
+font-size: 15px;
+font-weight: 500;
+line-height: 20px;
+}
+.box3 .details .middetails{
+    position: absolute;
+left: 250px;
+top: 316px;
+font-size: 15px;
+font-weight: 500;
+line-height: 20px;
+}
+.box3 .details .rightdetails{
+    position: absolute;
+    height: 102px;
+width: 160px;
+right: 20px;
+top: 310px;
+border-radius: 4px;
+background: #fff;
+box-shadow: 0px 0px 2px 0px #00000014;
+box-shadow: 0px 2px 8px 0px #00000029;
+z-index: 11;
+}
+.box3 .details .rightdetails ul li{
+    list-style: none;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+padding: 8px;
+}
+.box3 .link{
+    margin-left: 4%;
+}
+.box3 .link, .box4 .link{
+    position: absolute;
+    top: 368px;
+    height: 38px;
+    width: 90%;
+    color: #e56135;
+    border: 0.7px solid #A9AEB8;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3 .name img{
+    top: 422px;
+}
+.box3 .name .leftname p{
+    top: 434px;
+}
+.box3 .name .rightname{
+    top: 437px;
+}
+.box4{
+    height: 269px;
+    position: relative;
+    margin-bottom: 98px;
+}
+.box4 h4{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+font-size: 18px;
+font-weight: 500;
+line-height: 23px;
+}
+.box4 .p7{
+    position: absolute;
+    top: 55px;
+    left: 20px;
+font-size: 22px;
+font-weight: 600;
+line-height: 30px;
+}
+.box4 .details .leftdetails{
+    position: absolute;
+    top: 97px;
+    left: 44px;
+font-size: 15px;
+font-weight: 500;
+line-height: 20px;
+}
+.box4 .details .middetails{
+    position: absolute;
+    top: 97px;
+    right: 16px;
+font-size: 15px;
+font-weight: 500;
+line-height: 20px;
+}
+.box4 .link{
+    color: #02b875;
+    top: 133px;
+    left: 22px;
+}
+.box4 .name img{
+    top: 201px;
+    left: 20px;
+}
+.box4 .name .leftname p{
+    top: 213px;
+    left: 78px;
+}
+.box4 .name .rightname{
+    right: 10%;
+    top: 216px;
+}
+.right{
+    float: right;
+    position: relative;
+    width: 20%;
+    margin-top: 56px;
+    right: 10%;
+}
+.right p{
+    margin-bottom: 11px;
+}
+
+@media (max-width:1000px) and (min-width:850px){
+    .head .logo{
+        left: 3%;
+    }
+    .leftnav a{
+        margin-right: 10px;
+    }
+    .head2{
+        position: relative;
+        background: url("img/Rectangle\ 2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    }
+    .head input{
+        left: 30%;
+    }
+    .box1 .p2{
+        top: 367px;
+    }
+    .left{
+        height: 592px;
+    }
+    .box1, .box2{
+        height: 500px;
+    }
+    .box1 .name img, .box2 .name img{
+        top: 424px;
+    }
+    .box1 .name .rightname, .box2 .name .rightname{
+        right: 22px;
+        top: 435px;
+    }
+    .box1 .name .leftname p, .box2 .name .leftname p{
+        top: 435px;
+    }
+}
+@media (max-width:850px) and (min-width:650px){
+    .head .logo{
+        left: 2%;
+    }
+    .head input{
+        left: 29%;
+        width: 290px;
+    }
+    .head p{
+        right: 2%;
+    }
+    .head2{
+        position: relative;
+        background: url("img/Rectangle\ 2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+    .leftnav a{
+        margin-right: 5px;
+    }
+    .rightnav button:nth-child(1){
+        padding: 8px 25px 8px 12px;
+        margin-right: 5px;
+    }
+    .rightnav button:nth-child(2){
+        padding: 8px 12px 8px 25px;
+    }
+    .box1, .box2{
+        height: 520px;
+    }
+    .box1 .p2, .box2 .p4{
+        top: 367px;
+    }
+    .box1 .name .rightname, .box2 .name .rightname{
+    right: 22px;
+    top: 470px;
+    }
+    .box1 .name img, .box2 .name img{
+    top: 454px;
+    }
+    .box1 .name .leftname p, .box2 .name .leftname p{
+    top: 465px;
+    }
+}
+@media (max-width:650px){
+    header{
+        display: none;
+    }
+    .right{
+        display: none;
+    }
+    .head2{
+        height: 236px;
+width: 100vw;
+position: relative;
+background: url("img/Rectangle\ 2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+
+    }
+    .head2 h1{
+        position: absolute;
+left: 16px;
+top: 164px;
+font-size: 17px;
+font-weight: 700;
+line-height: 22px;
+    }
+    .head2 p{
+left: 16px;
+position: absolute;
+top: 188px;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+    }
+    .leftnav .a{
+        display: block;
+        border: none !important;
+        position: absolute;
+        text-decoration: none;
+        color: black;
+left: 16px;
+top: 22px;
+font-size: 14px;
+font-weight: 700;
+line-height: 18px;
+
+    }
+    .leftnav .aa{
+        display: none;
+    }
+    .navbar{
+        border-bottom: none !important;
+        margin-top: 0;
+        position: relative;
+        width: 100vw;
+        height: 66px;
+    }
+    .rightnav .filter{
+        display: flex;
+        position: absolute;
+width: 106px;
+right: 18px;
+border: none;
+top: -14px;
+border-radius: 4px;
+background: #F1F3F5;
+border-radius: 4px;
+padding: 8px 0 7px 10px;
+    }
+    .rightnav .filter svg{
+        position: absolute;
+        margin: 5px 0 0 58px;
+    }
+    .rightnav button:nth-child(1), .rightnav button:nth-child(2){
+        display: none;
+    }
+    .left{
+        position: relative;
+    width: 100vw  !important;
+        height: 1200px;
+        margin: 0;
+    }
+    .left .box1{
+        position: relative;
+        height: 307px;
+        width: 100vw !important;
+        box-shadow: 0px 1px 2px 0px #0000001F;
+
+    }
+    .left .box1 .img1{
+        position: absolute;
+        height: 120px;
+        background: #C4C4C4;
+        border-radius: 4px 4px 0 0;
+    }
+    .left .box1 h4{
+        position: absolute;
+        top: 134px;
+        left: 16px;
+font-size: 14px;
+font-weight: 500;
+line-height: 18px;
+    }
+    .left .box1 .p1{
+        position: absolute;
+left: 16px;
+top: 159px;
+font-size: 16px;
+font-weight: 600;
+line-height: 21px;
+    }
+    .left .box1 .p2{
+        position: absolute;
+left: 16px;
+top: 211px;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+    }
+    .left .box1 .name .leftname img{
+        position: absolute;
+        top: 250px;
+        left: 15px;
+        border-radius: 24px;
+        height: 37px;
+        width: 37px;
+    }
+    .left .box1 .name .leftname p{
+        position: absolute;
+left: 65px;
+top: 252px;
+font-size: 13px;
+font-weight: 600;
+line-height: 17px;
+color: #212529;
+
+    }
+    .left .box1 .name .rightname{
+        position: absolute;
+left: 65px;
+top: 269px;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px;
+color: #495057;
+    }
+    .box2{
+        position: relative;    
+        width: 100vw !important;
+        height: 328px !important;
+        box-shadow: 0px 1px 2px 0px #0000001F;
+    }
+    .left .box2 .img2{
+        position: absolute;
+        height: 120px;
+        margin-top: 12px;
+        background: #C4C4C4;
+        border-radius: 4px 4px 0 0;
+    }
+    .left .box2 h4{
+        position: absolute;
+        top: 146px;
+        left: 16px;
+font-size: 14px;
+font-weight: 500;
+line-height: 18px;
+    }
+    .left .box2 .p3{
+        position: absolute;
+left: 16px;
+top: 171px;
+font-size: 16px;
+font-weight: 600;
+line-height: 21px;
+    }
+    .left .box2 .p4{
+        position: absolute;
+left: 16px;
+top: 223px;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+    }
+    .left .box2 .name .leftname img{
+        position: absolute;
+        top: 283px;
+        left: 15px;
+        border-radius: 24px;
+        height: 37px;
+        width: 37px;
+    }
+    .left .box2 .name .leftname p{
+        position: absolute;
+left: 65px;
+top: 285px;
+font-size: 13px;
+font-weight: 600;
+line-height: 17px;
+color: #212529;
+
+    }
+    .left .box2 .name .rightname{
+        position: absolute;
+left: 65px;
+top: 302px;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px;
+color: #495057;
+    }
+    .box3{
+        position: relative;    
+        width: 100vw !important;
+        height: 374px !important;
+        box-shadow: 0px 1px 2px 0px #0000001F;
+    }
+    .left .box3 .img3{
+        position: absolute;
+        height: 120px;
+        margin-top: 12px;
+        background: #C4C4C4;
+        border-radius: 4px 4px 0 0;
+    }
+    .left .box3 h4{
+        position: absolute;
+        top: 146px;
+        left: 16px;
+font-size: 14px;
+font-weight: 500;
+line-height: 18px;
+    }
+    .left .box3 .p5{
+        position: absolute;
+left: 16px;
+top: 171px;
+font-size: 16px;
+font-weight: 600;
+line-height: 21px;
+color: #212529;
+    }
+    .left .box3 .details .leftdetails{
+        position: absolute;
+left: 34px;
+top: 223px;
+font-size: 12px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: -0.01em;
+color: #212529;
+    }
+    .left .box3 .details .middetails{
+        position: absolute;
+        left: 190px;
+top: 223px;
+font-size: 12px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: -0.01em;
+color: #212529;
+    }
+    .box3 .link {
+        top: 255px;
+        height: 34px;
+width: 90%;
+left: 16px;
+border: 0.7px solid #A9AEB8;
+border-radius: 8px;
+    }
+    .box3 .rightdetails{
+        display: none;
+    }
+    .left .box3 .name .leftname img{
+        position: absolute;
+        top: 317px;
+        left: 13px;
+        border-radius: 24px;
+        height: 37px;
+        width: 37px;
+
+    }
+    .left .box3 .name .leftname p{
+        position: absolute;
+left: 65px;
+top: 319px;
+font-size: 13px;
+font-weight: 600;
+line-height: 17px;
+color: #212529;
+    }
+    .left .box3 .name .rightname{
+        position: absolute;
+left: 65px;
+top: 336px;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px;
+color: #495057;
+    }
+    .box4{
+        position: relative;    
+        width: 100vw !important;
+        height: 237px !important;
+        box-shadow: 0px 1px 2px 0px #0000001F;
+    }
+    .box4 h4{
+left: 16px;
+top: 20px;
+font-size: 14px;
+font-weight: 500;
+line-height: 18px;
+    }
+    .box4 .p7{
+left: 16px;
+top: 45px;
+font-size: 16px;
+font-weight: 600;
+line-height: 21px;
+    }
+    .left .box4 .details .leftdetails{
+        position: absolute;
+left: 34px;
+top: 82px;
+font-size: 12px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: -0.01em;
+color: #212529;
+    }
+    .left .box4 .details .middetails{
+        position: absolute;
+        right: 97px;
+top: 223px;
+font-size: 12px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: -0.01em;
+color: #212529;
+    }
+    .box4 .link {
+        top: 114px;
+        height: 34px;
+width: 90%;
+left: 16px;
+border: 0.7px solid #A9AEB8;
+border-radius: 8px;
+    }
+    .box4 .rightdetails{
+        display: none;
+    }
+    .left .box4 .details .middetails{
+        position: absolute;
+        left: 230px;
+top: 82px;
+font-size: 12px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: -0.01em;
+color: #212529;
+    }
+    .left .box4 .name .leftname img{
+        position: absolute;
+        top: 180px;
+        left: 13px;
+        border-radius: 24px;
+        height: 37px;
+        width: 37px;
+
+    }
+    .left .box4 .name .leftname p{
+        position: absolute;
+left: 65px;
+top: 182px;
+font-size: 13px;
+font-weight: 600;
+line-height: 17px;
+color: #212529;
+    }
+    .left .box4 .name .rightname{
+        position: absolute;
+left: 65px;
+top: 199px;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px;
+color: #495057;
+    }
+    .pen{
+        position: fixed;
+        height: 54px;
+        bottom: 18px;
+        right: 18px;
+width: 54px;
+border-radius: 50%;
+background: linear-gradient(180deg, #FF5C5C 0%, #F0568A 100%);
+box-shadow: 0px 0px 2px 0px #00000014, 0px 2px 4px 0px #0000002E;
+z-index: 11;
+    }
+    .pen svg{
+        position: absolute;
+        bottom: 18px;
+    right: 18px;
+    }
+    .head2 span{
+        position: absolute;
+        border-top: 2px solid white;
+        top: 30px;
+        left: 15px;
+        width: 18px;
+        height: 3px;
+    }
+    .head2 span::before{
+        position: absolute;
+    content: "";
+    border-top: 2px solid white;
+    left: -5px;
+    width: 11px;
+    height: 8px;
+    transform: rotate(
+55deg
+);
+    }
+    .head2 span::after{
+        content: "";
+        border-top: 2px solid white;
+        top: -7px;
+        position: absolute;
+        left: 0px;
+        width: 11px;
+        transform: rotate(
+    -55deg
+    );
+        height: 2px;
+    }
+    .head2::after{
+        content: "Join Now";
+        position: absolute;
+        top: 14px;
+        right: 18px;
+        padding: 6px 8px;
+        color: #fff;
+        border: 0.8px solid #FFFFFF;
+        border-radius: 4px;
+    }
+}
